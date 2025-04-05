@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+.venv/
+env/
+*.env
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Streamlit secrets (IMPORTANT!)
+.streamlit/secrets.toml
+
+# IDE / Editor specific files (optional but good practice)
+.vscode/
+.idea/
+*.DS_Store
